@@ -12,13 +12,13 @@ comments: false
 My name is Andrei Telerez, an aspiring programmer within the games industry. During my first two years of University, I have completed projects on my own and as part of a team. This allowed me to gain invaluable skills such as:
 
 
+<ul>
+    <li>The ability to adapt</li>
 
-The ability to adapt
+    <li>Teamwork Efficiency</li>
 
-Teamwork Efficiency
-
-Resource management
-
+    <li>Resource management</li>
+</ul>
 
 
 Having to complete various projects within different teams allowed me to get familiarised with multiple game engines and programming languages such as:
