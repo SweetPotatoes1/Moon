@@ -14,8 +14,11 @@ My name is Andrei Telerez, an aspiring programmer within the games industry. Dur
 
 
 The ability to adapt
+
 Teamwork Efficiency
+
 Resource management
+
 
 
 Having to complete various projects within different teams allowed me to get familiarised with multiple game engines and programming languages such as:
@@ -23,7 +26,9 @@ Having to complete various projects within different teams allowed me to get fam
 
 
 Unity - C#
+
 Unreal Engine - C++/Blueprints
+
 GameMaker - GML
 
 {% capture images %}
