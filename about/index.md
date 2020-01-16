@@ -10,10 +10,13 @@ comments: false
 
 #poza aici
 My name is Andrei Telerez, an aspiring programmer within the games industry. During my first two years of University, I have completed projects on my own and as part of a team. This allowed me to gain invaluable skills such as:
+##
 *The ability to adapt
 *Teamwork Efficiency
 *Resource management
+
 Having to complete various projects within different teams allowed me to get familiarised with multiple game engines and programming languages such as:
+##
 *Unity - C#
 *Unreal Engine - C++/Blueprints
 *GameMaker - GML
