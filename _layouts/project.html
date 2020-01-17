@@ -25,8 +25,8 @@ layout: compress
                         <h2>Engine: Unity</h2>
                         <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
                         <h3>Git URL Clone: https://SweetPotatoes1@bitbucket.org/SweetPotatoes1/guardianangel.git</h3>
-                        <button onclick="myFunction()">Read more</button>
-                        <div id="myDIV">
+                        <button onclick="ShowGaReadMore()">Read more</button>
+                        <div class="myDIV" id="GA">
                         Guardian Angel is a game where you play as a ghost. The core mechanic of the game is possessing enemies by colliding with them and then using their own abilities against other enemies.
                         </div> 
                         </li>
@@ -36,8 +36,8 @@ layout: compress
                             <h2>Engine: Unreal Engine</h2>
                             <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
                             <h3>Git URL Clone: https://SweetPotatoes1@bitbucket.org/SweetPotatoes1/autochess.git </h3>
-                            <button onclick ="myFunction()">Read more</button>
-                            <div id="myDIV">
+                            <button onclick ="ShowAutoChessReadMore()">Read more</button>
+                            <div class="myDIV" id="AutoChess">
                             Auto Chess is a prototype game inspired from League of Legend's Teamfight Tactics game mode.
                             </div>
                         </li>
@@ -52,8 +52,16 @@ layout: compress
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
     <script type="text/javascript">(new WOW).init();</script>
     <script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
+function ShowGaReadMore() {
+  var x = document.getElementById("GA");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  function ShowAutoChessReadMore() {
+  var x = document.getElementById("AutoChess");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -62,8 +70,11 @@ function myFunction() {
 }
 </script>  
 <script>
-var x = document.getElementById("myDIV");
-x.style.display = "none";
+var x = document.getElementsByClassName("myDIV");
+var i;
+for (i = 0; i < x.length; i++) {
+  x[i].stle.display = "none"
+}
 </script>
 </body>
 </html>
