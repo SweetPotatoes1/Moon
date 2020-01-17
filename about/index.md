@@ -2,13 +2,14 @@
 layout: page
 title: About me
 tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+date: 2020-01-17
 comments: false
 ---
     
 <center>University of Portsmouth - Computer games technology student.</center>
 
-#poza aici
+<img src = "https://sweetpotatoes1.github.io/Moon/assets/img/IMG-20191226-WA0104.jpg" alt = "my img">
+<br>
 My name is Andrei Telerez, an aspiring programmer within the games industry. During my first two years of University, I have completed projects on my own and as part of a team. This allowed me to gain invaluable skills such as:
 
 
