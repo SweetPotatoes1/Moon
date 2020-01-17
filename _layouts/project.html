@@ -24,6 +24,12 @@ layout: compress
                         <h1>Guardian Angel</h1>
                         <h2>Engine: Unity</h2>
                         <h2>Git URL Clone: https://SweetPotatoes1@bitbucket.org/SweetPotatoes1/guardianangel.git<h2>
+                        <a class="btn zoombtn">
+                           <button onclick="myFunction()">Try it</button>
+                        </a>
+                        <div id="myDIV">
+                        Read more here    
+                        </div>    
                         </li>
                     </ul>
                     
@@ -34,5 +40,15 @@ layout: compress
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
     <script type="text/javascript">(new WOW).init();</script>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>        
 </body>
 </html>
