@@ -41,7 +41,28 @@ layout: compress
                             Auto Chess is a prototype game inspired from League of Legend's Teamfight Tactics game mode.
                             </div>
                         </li>
-                              
+                        <br><br>
+                        <li class ="wow fadeInLeft" data-wow-duration="1.5s">
+                            <h1>Rabid Air Sprinters</h1>
+                            <h2>Engine: Unity </h2>
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+                            <h3>Git URL Clone: INSERT GIT LINK HERE </h3>
+                            <button onclick = "ShowRabidMore()">Read more </button>
+                            <div class="myDIV" id = "Rabid">
+                            Rabid air sprinters was a 2D fighting game. This was a group project and my duties included: Animations, Sound effects, and a small contributions to the game's logic.
+                            </div>
+                         </li>
+                         <br><br>
+                         <li class ="wow fadeInLeft" data-wow-duration="1.5s">
+                            <h1>2D Space Shooter</h1>
+                            <h2>Engine: Unity </h2>
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+                            <h3>Git URL Clone: INSERT GIT LINK HERE </h3>
+                            <button onclick = "ShowSpaceMore()">Read more </button>
+                            <div class="myDIV" id = "Space">
+                            A 2D space shooter from my first year of uni. I was not using source control at that time and unfortunantely lost the files to it. The video above is the only gameplay I have available of it :)
+                            </div>
+                         </li>
                     </ul>
                     
                 </div>
@@ -62,6 +83,22 @@ function ShowGaReadMore() {
 }
   function ShowAutoChessReadMore() {
   var x = document.getElementById("AutoChess");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function ShowRabidMore() {
+  var x = document.getElementById("Rabid");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function ShowSpaceMore() {
+  var x = document.getElementById("Space");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
