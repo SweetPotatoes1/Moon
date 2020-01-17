@@ -14,9 +14,11 @@ My name is Andrei Telerez, an aspiring programmer within the games industry. Dur
 
 
 <ul>
-    <li>The ability to adapt</li>
+    <li>The ability to adapt and learning new technologies</li>
+    
+    <li>How to research properly</li>
 
-    <li>Teamwork Efficiency</li>
+    <li>Teamwork efficiency</li>
 
     <li>Resource management</li>
 </ul>
@@ -30,9 +32,3 @@ Having to complete various projects within different teams allowed me to get fam
     <li>Unreal Engine - C++/Blueprints</li>
     <li>GameMaker - GML</li>
 </ul>
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
