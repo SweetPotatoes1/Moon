@@ -46,7 +46,7 @@ layout: compress
                             <h1>Rabid Air Sprinters</h1>
                             <h2>Engine: Unity </h2>
                             <iframe width="560" height="315" src="https://www.youtube.com/watch?v=P63XQ49JTSc" frameborder="0"> </iframe>
-                            <h3>Git URL Clone: INSERT GIT LINK HERE </h3>
+                            <h3>Git URL Clone: https://SweetPotatoes1@bitbucket.org/SweetPotatoes1/rabidairsprinters.git </h3>
                             <button onclick = "ShowRabidMore()">Read more </button>
                             <div class="myDIV" id = "Rabid">
                             Rabid air sprinters was a 2D fighting game. This was a group project and my duties included: Animations, Sound effects, and a small contributions to the game's logic.
@@ -57,10 +57,20 @@ layout: compress
                             <h1>2D Space Shooter</h1>
                             <h2>Engine: Unity </h2>
                             <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vBYolpNctgo" frameborder="0"> </iframe>
-                            <h3>Git URL Clone: INSERT GIT LINK HERE </h3>
                             <button onclick = "ShowSpaceMore()">Read more </button>
                             <div class="myDIV" id = "Space">
                             A 2D space shooter from my first year of uni. I was not using source control at that time and unfortunantely lost the files to it. The video above is the only gameplay I have available of it :)
+                            </div>
+                         </li>
+                         <br><br>
+                         <li class ="wow fadeInLeft" data-wow-duration="1.5s">
+                            <h1>Little Thief</h1>
+                            <h2>Engine: Unity </h2>
+                            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=3bYDxgUX_o0" frameborder="0"> </iframe>
+                            <h3>Git URL Clone: https://SweetPotatoes1@bitbucket.org/SweetPotatoes1/littlethief.git</h3>
+                            <button onclick = "ShowThiefMore()">Read more </button>
+                            <div class="myDIV" id = "Thief">
+                            A small platforming game where I worked together with an artist and a designer. The programming was done entirely by me.
                             </div>
                          </li>
                     </ul>
@@ -83,6 +93,13 @@ function ShowGaReadMore() {
 }
   function ShowAutoChessReadMore() {
   var x = document.getElementById("AutoChess");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  function ShowThiefMore() {
+  var x = document.getElementById("Thief");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
