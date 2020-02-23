@@ -73,6 +73,17 @@ layout: compress
                             A small platforming game where I worked together with an artist and a designer. The programming was done entirely by me.
                             </div>
                          </li>
+                         <br><br>
+                         <li class ="wow fadeInLeft" data-wow-duration="1.5s">
+                            <h1>Run Length Encoding Algorithm</h1>
+                            <h2>Language: C++ </h2>
+                            <img src = ""https://sweetpotatoes1.github.io/Moon/assets/RunLength.png" alt = "RunLength">
+                            <h3>Git URL Clone: https://SweetPotatoes1@bitbucket.org/SweetPotatoes1/runlengthencoding.git</h3>
+                            <button onclick = "ShowRunLengthMore()">Read more </button>
+                            <div class="myDIV" id = "RunLength">
+                            A C++ program that takes a file and run length encodes it. It returns the compression rate and the compressed file. It also decompresses compressed files
+                            </div>
+                         </li>
                     </ul>
                     
                 </div>
@@ -93,6 +104,14 @@ function ShowGaReadMore() {
 }
   function ShowAutoChessReadMore() {
   var x = document.getElementById("AutoChess");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+ }
+  function ShowRunLengthMore() {
+  var x = document.getElementById("RunLength");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
